@@ -10,6 +10,10 @@ var sortClickHandler = function(event) {
     }	
     $("tr[class=routeInfo]").remove();
 }
+
+
+var closeHandler = sortClickHandler
+
     
 var selectionHandler = function(event) {
     hidden_elem = $("div#hiddenInfo");
@@ -43,7 +47,7 @@ var selectionHandler = function(event) {
 	
 	//and make it visible under our current row
 	source_row=$(this).parents("tr");
-	source_row.after("<tr class=\"routeInfo\"><td colspan=\"5\"></td></tr>");
+	source_row.after("<tr class=\"routeInfo\"><td colspan=\"6\"></td></tr>");
 	$("tr[class=routeInfo]>td").append(data_elem);
     } else {
 	console.log("No such ride: "+ride_id);
@@ -57,7 +61,7 @@ $(document).ready(function() {
 	$.each(data, function(route_id, route_info) {
 	    route_info.route_id = route_id;
 	    rideInfoJsonLookup[route_id]=route_info;
-	    var row = "<tr><td align=\"left\"><button class=\"routeSelector\" value=\""+route_id+"\">"+
+	    var row = "<tr><td><button class=\"routeSelector\" value=\""+route_id+"\">"+
 		route_info.route_name+"</button></td>"+
 		"<td>"+route_info.distance_miles+"</td>"+
 		"<td>"+route_info.ascent_metres+"</td>"+
@@ -74,6 +78,7 @@ $(document).ready(function() {
 	sorttable.makeSortable($("table#rideTable").get(0));
 	$("table#rideTable th").click(sortClickHandler);
 	$("button[class=routeSelector]").click(selectionHandler);
+	$("button#closeButton").click(closeHandler);
     });
     
     

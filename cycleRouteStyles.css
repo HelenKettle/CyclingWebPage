@@ -1,9 +1,17 @@
-table#ride_metadata td {
+table#rideTable button {
     text-align: left;
 }
 
 table#ride_metadata th {
     text-align: left;
+}
+
+button#closeButton {
+    float: right;
+}
+
+tr.routeInfo td{
+    background: lightgray;
 }
 
 div#ride_images img {
