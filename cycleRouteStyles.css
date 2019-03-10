@@ -1,0 +1,31 @@
+table#ride_metadata td {
+    text-align: left;
+}
+
+table#ride_metadata th {
+    text-align: left;
+}
+
+div#ride_images img {
+    width: 60%;
+    clear: both;
+}
+
+div#mapmyrideInfo {
+    width: 50%;
+    float: left;
+}
+
+div#rideSummary {
+    width: 40%;
+    float: right;
+}
+
+button.routeSelector {
+    background:none!important;
+    color:blue;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    text-decoration:underline;
+}

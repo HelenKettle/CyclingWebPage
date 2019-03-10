@@ -1,0 +1,94 @@
+{
+    "dalmenylinlithgow": {
+	"route_name": "Dalmeny Linlithgow Loop",
+	"distance_miles": "27",
+	"ascent_metres": "411",
+	"start_point": "Dalmeny Station",
+	"description": "Scenic circular route from Dalmeny station with lunch stop at Linlithgow.",
+	"url": "https://www.mapmyride.com/routes/view/2382938686",
+	"map_my_ride_id": "2382938686",
+	"photos" : ["dalmenylinlithgow1.jpg"]
+    },
+    "stownewtongrange": {
+	"route_name": "Stow to Newtongrange",
+	"distance_miles": "26",
+	"ascent_metres": "504",
+	"start_point": "Stow station",
+	"description": "Haven't done this one yet!",
+	"url": "https://www.mapmyride.com/routes/view/239153072",
+	"map_my_ride_id": "2391530722",
+	"photos": []
+    },	
+    "humbie": {
+	"route_name": "Edinburgh to Gorebridge via Humbie",
+	"distance_miles": "47",
+	"ascent_metres": "846",
+	"start_point": "Edinburgh",
+	"description": "Hilly ride with a possbible cafe stop at Humbie Hub and option to visit Crichton Castle.",
+	"url": "https://www.mapmyride.com/routes/view/2061022000",	
+	"map_my_ride_id": "2061022000",
+	"photos" : []
+    },
+    "cammo": {
+	"route_name": "Cramond, Cammo and Dalmeny estate",
+	"distance_miles": "19",
+	"ascent_metres": "237",
+	"start_point": "Edinburgh",
+	"description": "Lovely countryside, stately homes and towers just outside Edinburgh. Places to eat at Cramond.",
+	"url": "https://www.mapmyride.com/routes/view/2103321379",	
+	"map_my_ride_id": "2103321379",
+	"photos" : ["cammo1.JPG","dalmenyHouse1.JPG"]
+    },
+    "redstonerigg": {
+	"route_name": "Redstone Rigg",
+	"distance_miles": "50",
+	"ascent_metres": "912",
+	"start_point": "Edinburgh",
+	"description": "Challenging ride up into the Lammermuirs. Lunch stop at the Lanterne Rouge cafe in Gifford. Train back from Longniddry or just cycle along the coast back to Edinburgh if you're not tired!",
+	"url": "https://www.mapmyride.com/routes/view/2064966196",	
+	"map_my_ride_id": "2064966196",
+	"photos" : ["redstoneRigg1.JPG"]
+    },
+    "faside": {
+	"route_name": "Edinburgh to North Berwick via Fa'side Castle",
+	"distance_miles": "39",
+	"ascent_metres": "387",
+	"start_point": "Edinburgh",
+	"description": "Gentle route through East Lothian via Fa'side castle (top of a hill!). Lunch at the Loft in Haddington. Train back from North Berwick.",
+	"url": "https://www.mapmyride.com/routes/view/2051830255",	
+	"map_my_ride_id": "2051830255",
+	"photos" : ["faside1.JPG"]
+    },
+    "pentlands": {
+	"route_name": "Pentlands (not MTB)",
+	"distance_miles": "26",
+	"ascent_metres": "419",
+	"start_point": "Edinburgh",
+	"description": "Short, hilly ride into the Pentlands past fields of Alpaccas and several reservoirs. There are some rough sections so not appropriate for full-on road bike unless you don't mind some bumpy sections. Don't attempt if you think it will be muddy (unless you are going by MTB)! Food/drink stop at the Vanilla Pod near Harlaw reservoir (weekends only).",
+	"url": "https://www.mapmyride.com/routes/view/1988324432",	
+	"map_my_ride_id": "1988324432",
+	"photos" : ["pentlands1.JPG"]
+    },
+    "NBByresHill": {
+	"route_name": "Edinburgh to North Berwick via Byres Tower",
+	"distance_miles": "32",
+	"ascent_metres": "357",
+	"start_point": "Edinburgh",
+	"description": "Along the coast to Prestonpans and then cross the railway at the level crossing (sometimes there is a short wait). Lunch at Cockenzie house in Cockenzie and an option to stop and climb Byres hill and go up the tower (amazing views). There are some rough sections where the route along the John Muir way into North Berwick - these can be avoided by sticking to the roads.",
+	"url": "https://www.mapmyride.com/routes/view/1946201534",	
+	"map_my_ride_id": "1946201534",
+	"photos" : ["byres1.JPG","byres2.JPG","NBJMW1.JPG"]
+    },
+    "ArthursSeat": {
+	"route_name": "Arthur's Seat",
+	"distance_miles": "3",
+	"ascent_metres": "119",
+	"start_point": "Edinburgh",
+	"description": "Very short, hilly circuit of Arthur's Seat all on road. Great views and good hill-climbing training between the two lochs. Note the traffic is one way!",
+	"url": "https://www.mapmyride.com/routes/view/1788160985",	
+	"map_my_ride_id": "1788160985",
+	"photos" : ["arthur1.JPG"]
+    }
+
+
+}

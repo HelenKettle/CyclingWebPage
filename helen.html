@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Cycling Routes</title>
+    <script src="sorttable.js" type="text/javascript"></script>
+    <script src="jquery-min.js" type="text/javascript"></script>
+    <script src="cycleRoutes.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="cycleRouteStyles.css">
+  </head>
+  <body>
+    <h1>Cycling Routes</h1>
+    <p>Below is a collection of cycling routes in the Edinburgh area. All start in Edinburgh or are accessible by a short train ride from Edinburgh/Haymarket. Unless otherwise stated in the description these are suitable for most road bikes (I have done them all on 28mm slicks). You can sort the routes by distance, ascent etc by clicking on the table heading. The GPX files are found on the mapmyride.com link. These can be loaded onto a garmin or if you don't have a garmin you can use the mapmyride app on your phone (need to check!). If you click on the Route Name you can see a map of the route and an elevation profile (scroll down) and any photos that may have been uploaded. </p>
+    <table id="rideTable">
+      <tr><th>Route Name</th><th>Distance (miles)</th><th>Total
+	  Ascent (m)</th><th>Start Point</th><th>Description</th><th>GPX file etc link</h></tr>
+      
+    </table>  
+    <div id="hiddenInfo" style="visibility: hidden">
+      <div id="rideInfo">
+	<div id="mapmyrideInfo">
+
+	  
+	  <iframe id="mapmyfitness_route"
+		  src=""
+		  height="470px" width="100%" frameborder="0">
+	  </iframe>
+	  
+	  
+	</div>
+
+
+
+	<div id="rideSummary">
+	  <h1>Photos</h1>
+<!--	  <p id="ride_description"> UNSET </p> 
+	  <table id="ride_metadata">
+	    <tr><th>Distance</th><td id="ride_distance">UNSET</td></tr>
+	    <tr><th>Total Ascent</th><td id="ride_ascent">UNSET</td></tr> 
+	    <tr><th>Start Point</th><td id="ride_start">UNSET</td></tr> 
+	  </table> -->
+	  <p> 
+	    <a id="ride_link"
+	       target="_new"
+	       href="">
+	      Link to export route </a>
+	  </p> 
+	  <div id="ride_images">
+	  </div>	  
+	</div>
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>  
+ 
+ 
